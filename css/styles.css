@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.tiles {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  background-color: #eee;
+}
+
+.tiles a {
+  padding: 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.tiles a:hover {
+  background-color: #0056b3;
+}
+
+#main-content {
+  padding: 40px;
+  font-size: 1.2em;
+}
